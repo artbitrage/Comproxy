@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "basic-auth": "^2.0.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
   },
   "engines": {
     "node": "15.5.0"
