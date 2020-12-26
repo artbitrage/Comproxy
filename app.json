@@ -1,0 +1,8 @@
+{
+    "name": "comproxy-server",
+    "description": "Data compression service that reduces images (WebP or JPEG) resolution on the fly.",
+    "repository": "https://github.com/ctsecurity/Comproxy",
+    "website": "https://academic.syafiqhadzir.dev/Research/Comproxy",
+    "logo": "https://academic.syafiqhadzir.dev/Favicons/apple-touch-icon.png",
+    "keywords": [ "proxy", "compression", "jpeg", "webp" ]
+  }
