@@ -4,5 +4,20 @@
     "repository": "https://github.com/ctsecurity/Comproxy",
     "website": "https://academic.syafiqhadzir.dev/Research/Comproxy",
     "logo": "https://academic.syafiqhadzir.dev/Favicons/apple-touch-icon.png",
-    "keywords": [ "proxy", "compression", "jpeg", "webp" ]
-  }
+    "keywords": [
+        "proxy",
+        "compression",
+        "jpeg",
+        "webp"
+    ],
+    "env": {
+        "LOGIN": {
+            "description": "If you want to secure your session, set your username here.",
+            "required": false
+        },
+        "PASSWORD": {
+            "description": "If you want to secure your session, set your password here.",
+            "required": false
+        }
+    }
+}

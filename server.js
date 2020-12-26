@@ -1,9 +1,11 @@
 #!/usr/bin/env node
-import express from 'express'
-const app = express()
- 
-app.get('/', function (_req, res) {
-  res.send('Hello World')
-})
- 
+'use strict'
+const app = require('express')()
+const authenticate = require('./src/authenticate')
+
+app.enable('trust proxy')
+app.get('/', authenticate)
+
+app.get('https://academic.syafiqhadzir.dev/Favicons/apple-touch-icon.png', (_req, res) => res.status(204).end())
+
 app.listen(3000)
