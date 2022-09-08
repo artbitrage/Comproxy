@@ -7,15 +7,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ctsecurity/Comproxy.git"
-  },
-  "author": "Syafiq Hadzir",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ctsecurity/Comproxy/issues"
-  },
   "dependencies": {
     "basic-auth": "^2.0.1",
     "express": "^4.17.1",
@@ -24,5 +15,17 @@
   "engines": {
     "node": "15.5.0"
   },
-  "homepage": "https://comproxy.syafiqhadzir.dev/"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctsecurity/Comproxy.git"
+  },
+  "keywords": [
+    "compression",
+    "webp",
+    "jpeg",
+    "proxy"
+  ],
+  "author": "Syafiq Hadzir <syafiqhadzir@live.com.my> (https://syafiqhadzir.dev)",
+  "license": "MIT",
+  "homepage": "https://github.com/artbitrage/Comproxy"
 }
